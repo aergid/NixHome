@@ -25,6 +25,7 @@
       keepassx
       lazydocker
       lazygit
+      lukesmithxyz-st
       mosh
       nextcloud-client
       nixpkgs-fmt
