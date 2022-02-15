@@ -13,18 +13,30 @@
 
   home = {
     packages = with pkgs; [
-      google-chrome
-      gitAndTools.gh
-      gtop
-      tree
-      ripgrep
-      file
+      autorandr
       binutils
+      discord
+      file
+      gitAndTools.gh
+      google-chrome
+      gqrx
+      gtop
+      joplin-desktop
+      keepassx
+      lazydocker
+      lazygit
       mosh
-      skype
-      tdesktop
+      nextcloud-client
       nixpkgs-fmt
       nixpkgs-review
+      nyxt
+      p7zip
+      ripgrep
+      rtl-sdr
+      skype
+      tdesktop
+      tig
+      tree
 
       (python39.withPackages (ps: with ps; [
         powerline
@@ -44,6 +56,12 @@
     htop.enable = true;
     info.enable = true;
     exa.enable = true;
+
+    # nix-index = {
+    #   enable = true;
+    #   enableZshIntegration = true;
+    #   enableBashIntegration = true;
+    # };
 
     direnv = {
       enable = true;
